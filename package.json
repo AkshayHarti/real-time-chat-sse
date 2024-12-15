@@ -1,0 +1,22 @@
+{
+    "name": "chat-app",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "client",
+        "server"
+    ],
+    "scripts": {
+        "dev": "turbo run dev",
+        "build": "turbo run build",
+        "start": "turbo run start",
+        "lint": "turbo run lint"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react-swc": "^3.7.2",
+        "turbo": "^1.11.3"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
